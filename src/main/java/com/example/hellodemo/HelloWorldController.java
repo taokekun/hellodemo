@@ -18,7 +18,7 @@ public class HelloWorldController {
 
     @RequestMapping("/hello")
     public String hello(){
-        String aa = "我是新手彧";
+        String aa = "我是新手彧123";
         return "Hello,spring boot";
     }
 }
